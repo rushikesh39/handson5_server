@@ -5,7 +5,7 @@ const socket=require("socket.io")
 const app =express();
 
 const server=app.listen(5000,()=>{
-    console.log("server started at port 5000")
+    console.log("server started on port 5000")
 })
 
 const io=socket(server,{
